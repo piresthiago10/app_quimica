@@ -6,10 +6,14 @@ TODO: Adicionar descrição e objetivo do projeto
 
 - [Android Studio](https://developer.android.com/studio/install?hl=pt-br)
 - Java SDK versão 17
+- NVM versão 0.39.7
+- Node versão 20
+- Npm versão 10
+- Expo versão 55.0.15
 
 ## Tutorial sobre GIT
 
-O Git é um constrolador de versões de software, necessário para fazer a manutenção do projeto, no arquivo [TUTORIAL_GIT.md](TUTORIAL_GIT.md) tem o passo a passo de como configurar o git, criar branchs, fazer commits e pull requests.
+O Git é um controlador de versões de software, necessário para fazer a manutenção do projeto, no arquivo [TUTORIAL_GIT.md](TUTORIAL_GIT.md) tem o passo a passo de como configurar o git, criar branchs, fazer commits e pull requests.
 
 ## Instalação e Execução do Projeto:
 
