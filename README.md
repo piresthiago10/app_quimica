@@ -6,6 +6,10 @@ TODO: Adicionar descrição e objetivo do projeto
 
 - [Android Studio](https://developer.android.com/studio/install?hl=pt-br)
 - Java SDK versão 17
+- NVM versão 0.39.7
+- Node versão 20
+- Npm versão 10
+- Expo versão 55.0.15
 
 ## Tutorial sobre GIT
 
