@@ -15,6 +15,10 @@ Verificar instalação:
 git --version
 ```
 
+No Windows:
+
+Baixar o instalador nesse [link](https://git-scm.com/)
+
 ---
 
 ## 2. Configurar usuário (obrigatório)

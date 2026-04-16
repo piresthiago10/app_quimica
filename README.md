@@ -7,9 +7,10 @@ TODO: Adicionar descrição e objetivo do projeto
 - [Android Studio](https://developer.android.com/studio/install?hl=pt-br)
 - Java SDK versão 17
 - NVM versão 0.39.7
-- Node versão 20
-- Npm versão 10
+- Node versão 24
+- Npm versão 11
 - Expo versão 55.0.15
+- [Git](https://git-scm.com/)
 
 ## Tutorial sobre GIT
 
@@ -17,16 +18,27 @@ O Git é um controlador de versões de software, necessário para fazer a manute
 
 ## Instalação e Execução do Projeto:
 
+Caso esteja usando uma máquina com windows, utilize esse tutorial: [TUTORIAL_WINDOWS.md](TUTORIAL_WINDOWS.md)
+
 **1 - Instalação via NVM**
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-source ~/.bashrc
+# Baixar e instalar o nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
-nvm install 20
-nvm use 20
-nvm alias default 20
+# Carregar o nvm sem precisar reiniciar o shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Baixar e instalar o Node.js:
+nvm install 24
+
+# Verifique a versão do Node.js:
+node -v # Deve exibir "v24.15.0".
+
+# Verificar a versão do npm:
+npm -v # Deve imprimir "11.12.1".
 ```
+
 **1.1 - verificar versões**
 ```bash
 node -v
@@ -36,8 +48,8 @@ npm -v
 - resultado deve ser algo como (pode variar alguns detalhes dependendo da máquina que está sendo utilizada):
 
 ```bash
-v20.15.1
-10.7.0
+v24.15.0
+11.12.1
 ```
 
 **2 - Java (JDK) versão 17**
@@ -166,6 +178,6 @@ npm install -g expo-cli
 ```
 **9.1 Acessando e iniciando o app na máquina virtual (VM)**
 ```bash
-cd AppQuimica
-npm start
+cd <caminho-do-projeto>/AppQuimica
+npx expo start
 ```
